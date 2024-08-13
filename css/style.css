@@ -223,7 +223,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(transparent, var(--main-color));
+  background: var(--bg-color-02);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,6 +240,7 @@ span {
 
 .portfolio-layer h4 {
   font-size: 1.8rem;
+  color: var(--main-color)
 }
 
 .portfolio-layer p {
